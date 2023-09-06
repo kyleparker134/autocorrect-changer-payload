@@ -1,0 +1,48 @@
+REM Made by Kyleparker134 # 
+REM AutoCorrect changer prnk
+REM inspired by someone else that made something similar to this but it never worked for me for some reason, so i decided to make my own #
+REM does not need any administrator permissions as far as im aware as this does not use things like cmd or powershell.
+REM it is reccomended to change the word/letter and the phrase.
+
+
+REM this part just opens up word with the windows search bar
+DELAY 1000
+GUI
+DELAY 500
+STRING word
+DELAY 1000
+ENTER
+
+REM we are now going to the area that we need to change the autocorrect
+DELAY 5000
+ALT Q
+DELAY 500
+T
+DELAY 500
+DOWN
+DELAY 100
+DOWN
+DELAY 100
+TAB
+DELAY 100
+ENTER
+
+REM this is the main part here, id reccomend changing any letter/word to anything in this area
+REM to change things, replace the 'i' to a word or letter and then change the other string to whatever you want it to replace to.
+DELAY 500
+STRING i
+DELAY 100
+TAB
+DELAY 100
+STRING i really do not want to go back to school
+DELAY 1000
+
+ENTER
+DELAY 1000
+ENTER
+DELAY 1000
+ENTER
+DELAY 1000
+ALT F4
+DELAY 500
+ALT F4
